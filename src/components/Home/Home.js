@@ -7,7 +7,6 @@ import Type from "./Type";
 import {
   AiFillGithub,
   AiOutlineMail,
-  AiOutlinePhone,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
