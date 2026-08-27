@@ -24,20 +24,23 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Building & Publishing Mobile Apps 📱
+              <ImPointRight /> Gardening & Plant Care 🌱
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring AI / ML Innovations 🤖
+              <ImPointRight /> DIY Crafts & Creative Projects 🛠️
             </li>
             <li className="about-activity">
-              <ImPointRight /> Hardware & IoT Automation Projects 💡
+              <ImPointRight /> Hardware & IoT Automation 💡
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Automotive & Car Enthusiast 🚗
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build scalable products that make a real-world impact!"{" "}
+            "First, solve the problem. Then, write the code."{" "}
           </p>
-          <footer className="blockquote-footer">Junaid Amin</footer>
+          <footer className="blockquote-footer">John Johnson</footer>
         </blockquote>
       </Card.Body>
     </Card>
