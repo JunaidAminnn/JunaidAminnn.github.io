@@ -6,8 +6,10 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import {
   AiFillGithub,
+  AiOutlineMail,
+  AiOutlinePhone,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 function Home() {
   return (
@@ -61,6 +63,7 @@ function Home() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  title="GitHub"
                 >
                   <AiFillGithub />
                 </a>
@@ -71,8 +74,31 @@ function Home() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  title="LinkedIn"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:itsmejunaidamin@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                  title="Email: itsmejunaidamin@gmail.com"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://wa.me/923495196977"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                  title="WhatsApp / Phone: +92 349 5196977"
+                >
+                  <FaWhatsapp />
                 </a>
               </li>
             </ul>

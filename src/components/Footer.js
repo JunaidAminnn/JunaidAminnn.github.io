@@ -2,8 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
+  AiOutlineMail,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -25,6 +26,7 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
+                title="GitHub"
               >
                 <AiFillGithub />
               </a>
@@ -35,8 +37,31 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
+                title="LinkedIn"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:itsmejunaidamin@gmail.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+                title="Email: itsmejunaidamin@gmail.com"
+              >
+                <AiOutlineMail />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://wa.me/923495196977"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+                title="WhatsApp / Phone: +92 349 5196977"
+              >
+                <FaWhatsapp />
               </a>
             </li>
           </ul>

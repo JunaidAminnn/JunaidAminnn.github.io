@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/Muhammad_Junaid_Amin_Resume.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineDownload, AiOutlineEye } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -19,12 +19,22 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ justifyContent: "center", position: "relative", gap: "15px" }}>
           <Button
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "200px" }}
+          >
+            <AiOutlineEye />
+            &nbsp;View CV
+          </Button>
+          <Button
+            variant="secondary"
+            href={pdf}
+            download="Muhammad_Junaid_Amin_Resume.pdf"
+            target="_blank"
+            style={{ maxWidth: "200px" }}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -37,12 +47,22 @@ function ResumeNew() {
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ justifyContent: "center", position: "relative", gap: "15px" }}>
           <Button
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "200px" }}
+          >
+            <AiOutlineEye />
+            &nbsp;View CV
+          </Button>
+          <Button
+            variant="secondary"
+            href={pdf}
+            download="Muhammad_Junaid_Amin_Resume.pdf"
+            target="_blank"
+            style={{ maxWidth: "200px" }}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
