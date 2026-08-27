@@ -10,6 +10,11 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [numPages, setNumPages] = useState(null);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -42,31 +47,20 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+          <Document
+            file={pdf}
+            onLoadSuccess={onDocumentLoadSuccess}
+            className="d-flex flex-column align-items-center"
+          >
+            {Array.from(new Array(numPages || 1), (el, index) => (
+              <Page
+                key={`page_${index + 1}`}
+                pageNumber={index + 1}
+                scale={width > 786 ? 1.7 : 0.6}
+                style={{ marginBottom: "20px" }}
+              />
+            ))}
           </Document>
-        </Row>
-
-        <Row style={{ justifyContent: "center", position: "relative", gap: "15px" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "200px" }}
-          >
-            <AiOutlineEye />
-            &nbsp;View CV
-          </Button>
-          <Button
-            variant="secondary"
-            href={pdf}
-            download="Muhammad_Junaid_Amin_Resume.pdf"
-            target="_blank"
-            style={{ maxWidth: "200px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
         </Row>
       </Container>
     </div>
