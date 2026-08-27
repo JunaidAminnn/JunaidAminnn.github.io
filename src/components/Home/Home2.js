@@ -13,37 +13,34 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m a Software Engineer passionate about crafting high-performance mobile applications and scalable full-stack web platforms.
               <br />
               <br />
               I’m proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  Swift, SwiftUI, Flutter (Dart), Python, and JavaScript{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — with deep experience building both mobile client apps and backend server ecosystems.
               <br />
               <br />
               My key areas of interest include developing
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Native iOS & Cross-Platform Apps, Custom Python Backends,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              and integrating full-suite <b className="purple">Firebase Services (Firestore, Auth, Crashlytics)</b>.
               <br />
               <br />
               Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              <b className="purple"> Swift & Flutter </b> alongside modern backend frameworks like{" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">Node.js</b> and{" "}
+                <b className="purple">Python REST APIs</b>.
               </i>
             </p>
           </Col>

@@ -8,37 +8,36 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi everyone! I’m <span className="purple">Muhammad Junaid Amin</span>{" "}
+            from <span className="purple">Islamabad, Pakistan</span>.
             <br />
             I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            <span className="purple">Software Engineer (Full-Stack & Mobile)</span> at{" "}
+            <span className="purple">Pixoraft Solutions</span>.
+            <br />I hold a Bachelor of Science (BS) in{" "}
+            <span className="purple">Software Engineering</span> from{" "}
+            <span className="purple">Capital University of Science & Technology (CUST), Islamabad</span> (CGPA: 3.01 / 4.00).
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            Apart from coding, here are a few activities I am passionate about:
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Building & Publishing Mobile Apps 📱
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Exploring AI / ML Innovations 🤖
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Hardware & IoT Automation Projects 💡
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Strive to build scalable products that make a real-world impact!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Junaid Amin</footer>
         </blockquote>
       </Card.Body>
     </Card>
