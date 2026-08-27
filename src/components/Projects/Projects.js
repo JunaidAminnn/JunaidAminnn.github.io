@@ -7,7 +7,7 @@ import calorieWise from "../../Assets/Projects/calorie_wise.jpg";
 import khattaFlow from "../../Assets/Projects/khatta_flow.jpg";
 import lemonIptv from "../../Assets/Projects/lemon_iptv.jpg";
 import digitalTasbeeh from "../../Assets/Projects/digital_tasbeeh.jpg";
-import smartAgri from "../../Assets/Projects/leaf.png";
+import smartAgri from "../../Assets/Projects/smart_agri.jpg";
 import editor from "../../Assets/Projects/codeEditor.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
